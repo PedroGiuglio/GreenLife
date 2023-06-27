@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// header {
+//     height: 10vh;
+//     width: 100%;
+//     background-color: green;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     .navBar {
+//         display: flex;
+//         flex: row;
+//         justify-content: space-around;
+//         list-style: none;
+//         font-weight: bold;
+//         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//         color: white;
+//     }
+// }
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    header {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .navBar {
+            display: flex;
+            flex: row;
+            justify-content: space-around;
+            list-style: none;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+    }
+
+    .mainPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    p{
+        margin-top: 50px;
+        width: 700px;
+        height: 200px;
+    }
+}
+}
+
+.main2{
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h2{
+        color: green;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    p{
+        text-align: center;
+        height: 250px;
+        font-size: 25px;
+        span{
+            font-weight: bolder;
+        }
+    }
+
+    .equiposGaleria{
+        margin-top: -150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+    .boxEquipos{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items:center;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+    .boxUsado{
+        background-image: url(images/tractorDos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .boxNuevo{
+        background-image: url(images/tractorUno.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .boxRepuesto{
+        background-image: url(images/repuestos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+}
+
+footer{
+    background-color: aquamarine;
+    height: 10vh;
+}
